@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bin2Dec Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<header>
+    <h1>Binary Calculator</h1>
+    <p>Enter a number in any category to see its conversion to binary, hexadecimal, and decimal conversion.</p>
+
+</header>
+
+<div class="container">
+    <div class="input-group mb-3">
+        <div class="form-floating flex-grow-1">
+        <input type="text" class="form-control" id="binary-input" placeholder="Binary"
+               aria-label="Example text with button addon"
+               aria-describedby="button-addon1">
+            <label for="binary-input">Binary</label>
+            </div>
+        <button class="btn btn-outline-secondary" type="button" id="bin-btn">Go</button>
+    </div>
+    <div class="input-group mb-3">
+        <div class="form-floating flex-grow-1">
+        <input type="text" class="form-control" id="hex-input" placeholder="Hexadecimal"
+               aria-label="Example text with button addon"
+               aria-describedby="button-addon1">
+            <label for="hex-input">Hexadecimal</label>
+            </div>
+        <button class="btn btn-outline-secondary" type="button" id="hex-btn">Go</button>
+    </div>
+    <div class="input-group mb-3">
+        <div class="form-floating flex-grow-1">
+        <input type="text" class="form-control" id="decimal-input" placeholder="Decimal"
+               aria-label="Example text with button addon"
+               aria-describedby="button-addon1">
+        <label for="decimal-input">Decimal</label>
+        </div>
+        <button class="btn btn-outline-secondary" type="button" id="dec-btn">Go</button>
+    </div>
+</div>
+<div class="bottom-btns">
+    <button type="button" id="reset" class="btn btn-primary btn-lg">Reset</button>
+    <button type="button" id="randomize" class="btn btn-primary btn-lg">Randomize</button>
+</div>
+<script src="index.js"></script>
+<!-- Bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

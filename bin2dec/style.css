@@ -1,0 +1,20 @@
+header {
+    margin: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    margin: 2em;
+}
+
+.bottom-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn.btn-primary.btn-lg {
+    margin: 0.5em;
+    width: 10em;
+}
