@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+.body {
+    margin: 10px 2em 0 2em;
+    display: flex;
+}
+
+.block {
+    margin: 10px;
+    flex: auto;
+    display: inline-block;
+}
+
+.btn {
+    float: right;
+
+}
+
+#char-text {
+    font-size: 0.75em;
+    color: lightslategray;
+}
