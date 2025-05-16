@@ -6,6 +6,6 @@
 
 | Left |  Center  | Right |
 |:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
+| <a href="https://tangyubei.github.io/bin2dec/">Binary to Decimal Calculator</a><br>   | **bold** | $1600 |
+|<a href="https://tangyubei.github.io/wordfreq/">Word Frequency Display</a><br>  |  `code`  |   $12 |
+|<a href="https://tangyubei.github.io/VigenereCipher/">Vigenere Cipher</a> | _italic_ |    $1 |
