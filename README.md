@@ -4,3 +4,8 @@
 <a href="https://tangyubei.github.io/wordfreq/">Word Frequency Display</a><br>
 <a href="https://tangyubei.github.io/VigenereCipher/">Vigenere Cipher</a>
 
+| Left |  Center  | Right |
+|:-----|:--------:|------:|
+| L0   | **bold** | $1600 |
+| L1   |  `code`  |   $12 |
+| L2   | _italic_ |    $1 |
